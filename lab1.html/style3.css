@@ -43,3 +43,41 @@
     align-items: center;
     justify-content: center;
 }
+
+.container {
+    width: 500px;
+    height: 500px;
+    border: black solid 5px;
+    position: relative;
+    overflow-x: hidden;
+}
+/* .box {
+    width: 200px;
+    height: 300px;
+    border: black solid 5px;
+} */
+.box-1 {
+     width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: fixed;
+}
+.box-2 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(29, 99, 113);
+}
+.box-3 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(183, 237, 202);
+}
+.box-3:hover{
+    position: relative;
+    left: 20px
+}
+.box-2:hover {
+    position:absolute;
+    top: 200px;
+    left: 700px;
+}
