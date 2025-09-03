@@ -1,0 +1,76 @@
+
+.forest{
+    width: 600px;
+    height: 500px;
+    margin-left: 50px;
+    border: 10px solid black;
+    position: relative;
+    
+}
+.ph1 {
+    position: absolute;
+    left: 0;
+    top: 30px;
+    border-radius: 50%;
+    z-index: 1;
+
+}
+.ph2 {
+    position: absolute;
+    left: 110px;
+    bottom: 220px;
+    border-radius: 50%;
+    z-index: 2;
+
+
+}
+
+.ph3 {
+    position: absolute;
+    left: 250px;
+    top: 50px;
+    border-radius: 50%;z-index: 3;
+
+    
+
+}
+.ph4 {
+    position: absolute;
+    left: 400px;
+    top: 40px;
+    border-radius: 50%;
+    
+
+
+}
+.ph5 {
+    position: absolute;
+    left: 40px;
+    top: 100px;
+    border-radius: 50%;
+    z-index: 3;
+
+}
+.ph6 {
+    position: absolute;
+    left: 150px;
+    top: 100px;
+    border-radius: 50%;
+    z-index: 3;
+
+
+
+}
+.ph7 {
+    position: absolute;
+    left: 500px;
+    top: 150px;
+    border-radius: 50%;
+
+}
+
+
+
+
+
+
