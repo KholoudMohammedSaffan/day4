@@ -1,3 +1,4 @@
+
 .head{
     background-image: url(images/background.webp);
     background-repeat: no-repeat;
@@ -11,14 +12,24 @@ nav{
     height: 50px;
 }
 nav a{
-    padding: 10px;
+    padding: 20px;
     font-size: large;
     color: white;
+    text-decoration: none;
+    width: 50px;
+
 }
+nav a:hover{
+    background-color:red ;
+    transition: 0.3s;
+    transform: scale(1.2);
+    
+} 
 .watch{
     display: inline-block;
     text-align: center;
 }
+
 .w1{
     border: 3px red solid;
     margin-left: 500px;
@@ -31,6 +42,15 @@ nav a{
     padding-top: 20px;
     color: white;
 }
+.w1:hover {
+    transition: 0.3s;
+    transform: scale(1.2);
+} 
+
+.w2:hover {
+    transition: 0.3s;
+    transform: scale(1.2);
+} 
 .w2{
     border: 3px red solid;
     margin-left: 50px;
@@ -44,6 +64,7 @@ nav a{
 }
 .w1 ,.w2:hover{
     background-color: red;
+    
 }
 .lorem{
     width: 300px;
@@ -54,25 +75,42 @@ nav a{
     color: white;
 }
 .resently-updated {
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    gap: 50px;
+    height: 150px;
+    
     background-color: black;
     color: white;
     font-size: medium;
 
 }
+.resently-updated-logo{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
 .image {
     width: 100px;
     height: 100px;
 }
+/* .image:hover{
+    transition: 0.3s;
+    transform: scale(1.2);
+} */
 .update1 {
     display: flex;
 }
+.update1:hover {
+    transition: 0.3s;
+    transform: scale(1.2);
+}
+.div1:hover {
+    transition: 0.3s;
+    transform: scale(1.2);
+}
 .span {
-    text-align: center;
-    font-size: larger;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
 }
 .trending-img {
     width: 300px;
@@ -115,4 +153,19 @@ h2 {
     margin: 20px;
     background-color: red;
     
+}
+.button {
+    width: fit-content;
+    height: 25px;
+    background-color: white;
+    border-radius: 10px;
+}
+.button1 {
+    display: flex;
+    gap: 20px;
+    padding-left: 50px;
+}
+.button:hover {
+    transition: 0.3s;
+    transform: scale(1.2);
 }

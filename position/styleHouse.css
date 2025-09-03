@@ -2,8 +2,11 @@
     width: 250px;
     height: 300px;
     position: relative;
-    display: inline-block;
     
+}
+.home1 {
+    display: flex;
+    gap: 50px;
 }
 .Head {
     width: 250px;
