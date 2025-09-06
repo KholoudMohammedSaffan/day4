@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toggle Two Images</title>
+</head>
+<body>
+
+  <h2>Toggle Between Two Images</h2>
+
+  
+  <img id="img1" src="download.jpg" width="300">
+  <img id="img2" src="download (1).jpg" width="300" style="display:none;">
+
+  <br><br>
+  <button onclick="toggleImages()">Change Image</button>
+
+  <script>
+    function toggleImages() {
+      let img1 = document.getElementById("img1");
+      let img2 = document.getElementById("img2");
+
+
+      if (img1.style.display !== "none") {
+        img1.style.display = "none";
+        img2.style.display = "block";
+      } else {
+        img1.style.display = "block";
+        img2.style.display = "none";
+      }
+    }
+  </script>
+
+</body>
+</html>

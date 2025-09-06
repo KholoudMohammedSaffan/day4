@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>Add items to a list</title>
+</head>
+<body>
+  <h2>add item</h2>
+  <input type="text" id="itemInput">
+  <button onclick="addItem()">Add</button>
+
+  <ul id="itemList"></ul>
+
+
+
+  
+
+  <script>
+    function addItem() {
+     // prject1
+      let input = document.getElementById("itemInput");
+      let text = input.value.trim();
+      if (text !== "") {
+        let li = document.createElement("li");
+        li.textContent = text;
+        document.getElementById("itemList").appendChild(li);
+        input.value = "";
+      }
+
+
+  
+    }
+  </script>
+</body>
+</html>
